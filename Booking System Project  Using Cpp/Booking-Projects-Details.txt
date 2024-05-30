@@ -1,0 +1,56 @@
+                                     Booking System Project        
+
+Project Description
+This project is a simple console-based booking system developed in C++. It was created as my first project while learning and applying Object-Oriented Programming (OOP) concepts. The system allows users to book stays, flights, and vehicle rentals.
+
+Features
+1. User Details
+Users can enter their personal information including name, location, mobile number, email, ID, and age.
+
+2. Booking a Stay
+Users can choose to book a stay in a hotel, rent a property, or book a hostel room.
+For hotel bookings, users can select between 3-star, 5-star, and 7-star hotels and specify the number of days they wish to stay.
+The total price is calculated based on the number of days and the type of hotel.
+Users can choose to confirm or cancel the booking.
+
+3. Booking a Flight
+Users can choose between different flight classes: Economy, Premium Economy, Business, and First Class.
+They can enter travel details such as the day of travel, from and to locations.
+The cost is displayed based on the chosen class, and users can confirm or cancel the booking.
+
+4. Renting a Vehicle
+Users can choose to rent a car, bike, scooty, or a custom vehicle.
+They specify the number of days for the rental.
+The total price is calculated based on the number of days and the type of vehicle.
+Users can confirm or cancel the booking.
+
+Classes and Methods
+
+1. UserDetails
+Stores and manages personal user information.
+Methods:
+getDetails(): Collects user details.
+display(): Displays the user's name.
+
+2. Stay (Inherits from UserDetails)
+Manages hotel, property, and hostel bookings.
+Method:
+choice(): Handles the booking process for stays.
+
+3. Flight
+Manages flight bookings.
+Method:
+select(): Handles the booking process for flights.
+
+4. Rent
+Manages vehicle rentals.
+Method:
+selec(): Handles the booking process for vehicle rentals.
+How to Run
+Compile the code using a C++ compiler.
+Run the executable.
+Follow the prompts to enter user details and make a booking.
+
+
+Note
+This was my first project, built while learning the OOP concepts in C++.
